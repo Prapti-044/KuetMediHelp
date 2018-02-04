@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:gravity="fill" >
+
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:flipInterval="2000">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:background="@drawable/rec">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Md. Mizanur Rahman"
+                android:textColor="#0000ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:autoLink="phone"
+                android:text=" Mobile : 01836826781"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Runa Laila"
+                android:textColor="#0000ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:autoLink="phone"
+                android:text=" Mobile : 01920511566"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/call31"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="Make a Call"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/call32"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="Make a Call"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

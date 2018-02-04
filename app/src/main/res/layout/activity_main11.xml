@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:gravity="fill" >
+
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:flipInterval="2000">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pro"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Dr. Biplob Kumar Dey"
+                android:textColor="#0000ff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Assistant Medical Officer"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" General MBBS"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:autoLink="phone"
+                android:text=" Mobile : 01737957724"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Visiting Period :"
+                android:textColor="#0095b6"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Sunday: 8 a.m- 2:30 p.m"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Monday, Saturday: 9:30 p.m - 8:00 a.m"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:singleLine="true"
+                android:text=" Friday, Thursday: 2:30 p.m -9:30 p.m"
+                android:textColor="#204c39"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/call11"
+                android:text="Make a Call"
+                android:textStyle="bold"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

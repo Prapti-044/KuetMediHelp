@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:gravity="fill" >
+
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:flipInterval="2000">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:background="@drawable/amb">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:singleLine="true"
+                android:text=" Hasan Murad"
+                android:textColor="#0000ff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="155dp"
+                android:autoLink="phone"
+                android:text=" Mobile : 01715714715"
+                android:textColor="#204c39"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/call4"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:text="Make a Call"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>
